@@ -1,0 +1,12 @@
+[
+    {
+      "titulo": "Projeto ADA",
+      "descricao": "<p>Primeiramente, o repositório Wiki foi criado no GitHub. Em seguida, o repositório foi clonado, e todas as branches necessárias para o uso do GitFlow foram criadas. Utilizando o comando \"git flow feature start minha-feature\", foi criado um branch para o desenvolvimento do projeto.</p><p>Posteriormente, o arquivo \"posts.json\" foi criado, seguido pela criação dos diretórios \"templates\" e \"static\". Em seguida, o script Python \"generate-pages.py\" foi desenvolvido, contendo toda a lógica para a geração do arquivo \"index.html\". A execução desse script resultou na geração do HTML.</p><p>Com a estrutura básica pronta, o arquivo \"style.css\" foi criado para a estilização da página. Após a conclusão do projeto, o comando \"git add .\" foi utilizado para adicionar todos os arquivos ao stage. Em seguida, o comando \"git commit -m 'Projeto Criado'\" foi executado para realizar o commit dos arquivos.</p><p>Para enviar as alterações para o GitHub, o comando \"git push\" foi utilizado. Após isso, ocorreu o merge da branch \"feature/minha-feature\" para a branch \"develop\". Finalmente, foi realizado o merge da branch \"develop\" para a branch \"main\".</p>",
+      "autor": "Rafael Delfino"
+    },
+    {
+      "titulo": "Projeto ADA 2",
+      "descricao": "Versionamento e Arquivos de Marcação.",
+      "autor": "Rafael Delfino"
+    }
+  ] 
