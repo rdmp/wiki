@@ -8,7 +8,7 @@ def criar_html(postagens):
             arquivo_html.write('<div>\n')
             arquivo_html.write(f'<h2>{postagem["titulo"]}</h2>\n')
             arquivo_html.write(f'<p>Autor: {postagem["autor"]}</p>\n')
-            arquivo_html.write(f'<p>{postagem["descricao"]}</p>\n')
+            arquivo_html.write(f'{postagem["descricao"]}\n')
             arquivo_html.write('</div>\n\n')
 
         arquivo_html.write('</body>\n</html>')
